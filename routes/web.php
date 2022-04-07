@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SampleController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,4 +18,6 @@ use App\Http\Controllers\SampleController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::resource('/', SampleController::class);
+Route::resource('/sample', SampleController::class);
+
+
